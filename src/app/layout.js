@@ -1,9 +1,10 @@
-import { Inter } from "next/font/google";
+import { Quicksand, Hind } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ["latin"], variable: '--font-quick' });
+const hind = Hind({ subsets: ["latin"], weight: ['400', '600'], variable: '--font-hind' });
 
 export const metadata = {
   title: "Ariel's Literary Voyage",
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${hind.variable} font-sans`}>
         <Navbar />
         {children}
         <Footer />
