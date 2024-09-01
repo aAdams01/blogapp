@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${hind.variable} font-sans`}>
+      <body className={`${hind.variable} ${quicksand.variable} font-hind`}>
         <Navbar />
         {children}
         <Footer />

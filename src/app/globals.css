@@ -51,3 +51,7 @@ body {
     text-wrap: balance;
   }
 }
+
+h1, h2 {
+  font-family: var(--font-quick), sans-serif;
+}

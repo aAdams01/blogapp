@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-hind)'],
-        serif: ['var(--font-quick)']
+        hind: ['var(--font-hind)'],
+        quicksand: ['var(--font-quick)']
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
