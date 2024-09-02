@@ -55,3 +55,22 @@ body {
 h1, h2 {
   font-family: var(--font-quick), sans-serif;
 }
+
+.diamond-container {
+  box-shadow: -4px -4px 2px #12f7d6;
+  padding: 24px;
+  border-bottom-width: 4px;
+  border-color: #ffffff;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-style: solid;
+  border-top-width: 4px;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  /* border-bottom-left-radius: 75px; */
+  border-bottom-right-radius: 75px;
+}
+
+.diamond {
+  
+}

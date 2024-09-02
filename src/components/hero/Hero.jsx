@@ -7,14 +7,16 @@ export default function Hero() {
       <h1 className="my-7 text-center text-3xl md:text-5xl">Dev & Reader</h1>
       <div className="grid grid-cols-1 md:grid-cols-4">
         {/* Column 1: Mini About Me */}
-        <div>
-          <h2>Ariel</h2>
-          <h3>Web Developer</h3>
-          <p>Location</p>
-          <p>Coding</p>
-          <p>Reading</p>
-          <p>Listening</p>
-          <p>Watching</p>
+        <div className="diamond-container">
+          <div className="diamond">
+            <h2>Ariel</h2>
+            <h3>Web Developer</h3>
+            <p>Location</p>
+            <p>Coding</p>
+            <p>Reading</p>
+            <p>Listening</p>
+            <p>Watching</p>
+          </div>
         </div>
         {/* Column 2: Site Intro + CTA */}
         <div className="col-span-2">
