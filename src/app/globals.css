@@ -57,20 +57,20 @@ h1, h2 {
 }
 
 .diamond-container {
-  box-shadow: -4px -4px 2px #12f7d6;
   padding: 24px;
+  margin: 0 auto;
+  box-shadow: -4px -4px 2px theme('colors.lavendar');
   border-bottom-width: 4px;
-  border-color: #ffffff;
+  border-color: rgb(var(--foreground-rgb));
   border-left-width: 4px;
   border-right-width: 4px;
   border-style: solid;
   border-top-width: 4px;
-  border-top-left-radius: 75px;
   border-top-right-radius: 75px;
-  /* border-bottom-left-radius: 75px; */
-  border-bottom-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  width: 250px;
 }
 
 .diamond {
-  
+  min-width: 250px;
 }
